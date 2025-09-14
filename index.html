@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <main>
+        <form action="" id="weatherForm">
+            <input type="text" id="valueSearch" placeholder="Enter city name" required>
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <section class="result">
+                    <figure class="name" id="city">
+                        <figcaption>Delhi</figcaption>
+                        <img src="https://flagsapi.com/IN/shiny/32.png"alt="weather icon">
+                    </figure>
+                    <figure class="temperature" id="temp">
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather icon">
+                    <figcaption>
+                            <span>32</span>
+                            <sup>o</sup>
+                    </figcaption>
+                    </figure>
+                    <p id="description">Overcast clouds</p>
+
+                    <ul>
+                        <li>
+                            <span>Clouds</span>
+                            <i class="fa-solid fa-cloud"></i>
+                            <span id="clouds">98</span>%
+                        </li>
+                        <li>
+                            <span>Humidity</span>
+                            <i class="fa-solid fa-droplet"></i>
+                            <span id="humidity">78</span>%
+                        </li>
+                        <li>
+                            <span>Pressure</span>
+                            <i class="fa-solid fa-wind"></i>
+                            <span id="pressure">1009</span>hPa
+                        </li>
+                    </ul>
+                </section>
+               <p>Coded by<a href="https://github.com/satakshi77" target="_blank"> Satakshi Dixit</a></p>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
